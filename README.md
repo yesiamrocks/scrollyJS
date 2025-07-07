@@ -1,21 +1,17 @@
-# ✨ ScrollyJS
+# ScrollyJS
 
 **ScrollyJS** is a lightweight, zero-dependency JavaScript library for triggering CSS animations when elements enter the viewport — on scroll, hover, click, or custom triggers.
 
-- 🎯 Zero config for default scroll-based animation
-- ⚙️ Custom triggers like `mouseenter`, `click`, and more
-- 🔬 Built with IntersectionObserver
-- 🪶 Lightweight and fast
-- 🔧 Easily extendable
+- Zero config for default scroll-based animation
+- Custom triggers like `mouseenter`, `click`, and more
+- Built with IntersectionObserver
+- Lightweight and fast
+- Easily extendable
 
 You can create a rich and **storytelling animated web pages** with up and down scrolling 👋
 Visitors can feel the page with scrolling and it has a really minimal learning curve.
 
-`Scrolly.js` plugin is proudly created and maintained by [cssanimation.io](http://cssanimation.io/) team, that a web based open source animation library by a team of **passionate web animation lover**.
-
-We developed the most easier way to work with scroll animation, Just use `data-scrolly-top` and `data-scrolly-down` attribute to quickly build powerful templates of your own.
-
-## 📦 Installation
+## Installation
 
 ### Using npm
 
@@ -284,13 +280,6 @@ Unlike those two follow the instruction below to animate targeted contents while
   data-scrolly-target-click="rotateInLeft">
   I am animate your target object when you mouse out from me
 </div>
-
-<script type="text/javascript" src="scrolly/scrolly.js"></script>
-<script>
-  window.onload = function () {
-    scrolly();
-  };
-</script>
 ```
 
 # Advanced Settings
