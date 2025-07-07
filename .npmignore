@@ -1,0 +1,9 @@
+node_modules/
+*.log
+*.md
+*.json5
+.vscode/
+.sass-cache/
+.github/
+build/
+scripts/
