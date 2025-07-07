@@ -1,0 +1,46 @@
+{
+  "name": "scrollyjs",
+  "version": "1.0.0",
+  "description": "A lightweight CSS animation trigger library that animates elements on scroll, click, hover, and more.",
+  "main": "dist/scrolly.js",
+  "style": "dist/scrolly.css",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "dev": "vite",
+    "lint": "eslint .",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "scroll",
+    "scroll animation",
+    "css",
+    "animation",
+    "trigger",
+    "hover",
+    "scrollyjs",
+    "animate",
+    "UI",
+    "frontend",
+    "intersection-observer"
+  ],
+  "author": "Shafayetul Islam Pavel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yesiamrocks/scrolly.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yesiamrocks/scrolly.js/issues"
+  },
+  "homepage": "https://github.com/yesiamrocks/scrolly.js#readme",
+  "files": [
+    "dist/",
+    "README.md"
+  ],
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "vite": "^5.4.19"
+  }
+}
