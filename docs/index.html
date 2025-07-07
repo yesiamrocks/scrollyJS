@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scrolly</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="highlight/rainbow.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="lib/cssanimation.min.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <a href="https://github.com/yesiamrocks/scrolly.js" target="_blank"><img class="github-ribbon" src="https://camo.githubusercontent.com/c6625ac1f3ee0a12250227cf83ce904423abf351/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f677261795f3664366436642e706e67" alt="cssanimation.io on GitHub"
+            data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_gray_6d6d6d.png"></a>
+    <div class="main-nav">
+        <div class="container">
+            <div class="row">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                            <a class="navbar-brand" href="javascript:void(0)"><img class="img-responsive" src="images/logo2.png" width="120" height="34"></a>
+                        </div>
+                        <div class="collapse navbar-collapse" id="myNavbar">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li><a href="#feature">Feature</a></li>
+                                <li><a href="#howItWorks">How It Works</a></li>
+                                <li><a href="#settings">Settings</a></li>
+                                <li><a href="#pricing">Download</a></li>
+                                <li><a href="http://cssanimation.io/readmore/" target="_blank">Blog</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+
+    <section class="hero_banner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1 text-left">
+                    <div class="promo" data-scrolly-bottom="fadeIn, duration:3s, delay:1s">
+                        <h1 class="promo-headline">You can create a rich and <strong>stroy telling animated web pages</strong> with up and down scrolling 👋</h1>
+                        <p class="promo-tagline">Visitors can feel the page with scrolling and it has a really minimal learning curve.</p>
+                        <a href="#howItWorks" class="btn btn-primary">Getteing Started</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <img src="images/cssanimation.png" class="img-responsive" data-scrolly-bottom="fadeInRight">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="aboutUs text-left" data-scrolly-bottom="fadeIn, delay:2s">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <p><b>Scrolly.js</b> plugin is proudly created and maintained by <b><a href="http://cssanimation.io/">cssanimation.io</a></b> team, that a web based open source animation library by a team of <strong>passionate web animation lover.</strong></p>
+                    <p>We developed the most easier way to work with scroll animation, Just use <code>data-scrolly-top</code> and <code>data-scrolly-bottom</code> attribute to quickly build powerful templates of your own.</p>
+                </div>
+                <div class="col-md-2">
+                    <img class="img-responsive center-block cssanimationlogo" data-scrolly-top="bounceZoomIn" data-scrolly-bottom="flipXZoomIn, delay:3s" data-scrolly-click="bounceZoomIn" data-scrolly-mouseover="coolHorizontalShake" src="images/icon-of-cssanimation.png"
+                        alt="cssanimationlogo">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="feature" class="sectionPadding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title text-center">
+                        <h1 data-scrolly-characters="sequentially" data-scrolly-top="lePeek" data-scrolly-bottom="leFlipInTop">Why Scrolly</h1>
+                        <p>Slack is free to use for as long as you want for teams of all sizes.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="feature-list" data-scrolly-bottom="fadeInLeft, duration:1.5s" data-scrolly-top="fadeInLeft, duration:1.5s">
+                        <img src="images/css.png" class="img-responsive center-block" />
+                        <h4>Animate by CSS</h4>
+                        <p>Make own effect you can imagine</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="feature-list" data-scrolly-bottom="fadeInRight, duration:1.5s" data-scrolly-top="fadeInRight, duration:1.5s">
+                        <img src="images/extendibility.png" class="img-responsive center-block" />
+                        <h4>Flexibility and extendibility</h4>
+                        <p>Maximize the relevancy of your creative while minimizing set-up and production time with the Spongecell platform.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row margin-top">
+                <div class="col-md-6" data-scrolly-bottom="fadeInLeft, duration:1.5s" data-scrolly-top="fadeInLeft, duration:1.5s">
+                    <div class="feature-list">
+                        <img src="images/responsive.png" class="img-responsive center-block" />
+                        <h4>Support for responsive</h4>
+                        <p>Good for All devices ( Mobiles, Tablet, Laptop, PC...)</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6" data-scrolly-bottom="fadeInRight, duration:1.5s" data-scrolly-top="fadeInRight, duration:1.5s">
+                    <div class="feature-list">
+                        <img src="images/lightweight.png" class="img-responsive center-block" />
+                        <h4>Lightweight</h4>
+                        <p>Maximize the relevancy of your creative while minimizing set-up and production time with the Spongecell platform.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row margin-top">
+                <div class="col-md-6">
+                    <div class="feature-list" data-scrolly-bottom="fadeInLeft, duration:1.5s" data-scrolly-top="fadeInLeft, duration:1.5s">
+                        <img src="images/easy-to-use.png" class="img-responsive center-block" />
+                        <h4>Easy to use</h4>
+                        <p>We developed the most easier way to work with scroll animation for desktop and mobile.</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6" data-scrolly-bottom="fadeInRight, duration:1.5s" data-scrolly-top="fadeInRight, duration:1.5s">
+                    <div class="feature-list">
+                        <img src="images/responsive.png" class="img-responsive center-block" />
+                        <h4>No dependency</h4>
+                        <p>Maximize the relevancy of your creative while minimizing set-up and production time with the Spongecell platform.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="howItWorks sectionPadding darkgrey" id="howItWorks">
+        <div class="container">
+            <!-- data-scrolly-characters="delay:200, randomly"  -->
+            <div class="title">
+                <h1 data-scrolly-characters="sequentially" data-scrolly-top="leFlyInTop" data-scrolly-bottom="leRotateInLeft">How To Use It?</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="rotateXIn" data-scrolly-bottom="rotateXIn">
+                    <p class="text-left"><b>Include Library:</b> To get started, just download <code>scrolly.js</code> [ <a href="https://github.com/yesiamrocks/scrolly.js">download</a> ] and <code>cssanimation.css</code> [ <a href="http://www.cssanimation.io "target="_blank">download</a> ]. Now include the<code>cssanimation.css</code> stylesheet into the <strong>head</strong> and add <code>scrolly.js</code> scripts before the <strong>body</strong> tag</p>
+                    <pre><code class="html">&lt;!DOCTYPE html&gt;<br>&lt;html lang=&quot;en&quot;&gt;<br>&lt;head&gt; <br>    &lt;meta charset=&quot;UTF-8&quot;&gt;<br>    &lt;title&gt;Document&lt;/title&gt;<br/>    &lt;link rel=&quot;stylesheet&quot; href=&quot;scrolly/cssanimation.css&quot;&gt; <br>&lt;/head&gt;<br/>&lt;body&gt; <br> <br/><br/>    &lt;script type=&quot;text/javascript&quot; src=&quot;scrolly/scrolly.js&quot;&gt;<br/>&lt;/body&gt;<br>&lt;/html&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="rotateXIn" data-scrolly-bottom="rotateXIn">
+                    <p class="text-left"><b>Activate Now:</b> When finished is included, now activate the scrolly.js</p>
+                    <pre><code class="html">&lt;!DOCTYPE html&gt;<br>&lt;html lang=&quot;en&quot;&gt;<br>&lt;head&gt; <br>    &lt;meta charset=&quot;UTF-8&quot;&gt;<br>    &lt;title&gt;Document&lt;/title&gt;<br/>    &lt;link rel=&quot;stylesheet&quot; href=&quot;scrolly/cssanimation.css&quot;&gt; <br>&lt;/head&gt;<br/>&lt;body&gt; <br> <br/><br/>    &lt;script type=&quot;text/javascript&quot; src=&quot;scrolly/scrolly.js&quot;&gt;&lt;/script&gt;<br/>    &lt;script&gt;<br>       window.onload = function() {<br>          scrolly();<br>       }; <br>    &lt;/script&gt;<br>&lt;/body&gt;<br>&lt;/html&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="flipY" data-scrolly-bottom="flipX">
+                    <p><b>Define Top Animation:</b> Once you've done that, define animation class name in <code>data-scrolly-top</code> attribute like the example below to the element <strong>that you want to animate when the page scroll UP</strong>. here we are using <code>flipY</code>.</p>
+                    <pre><code class="html">&lt;div data-scrolly-top="flipY"&gt; <br/>     it's easy to do <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromLeft, duration:3s" data-scrolly-bottom="doorCloseFromLeft, duration:3s">
+                    <p><b>Define Bottom Animation:</b> Like the top animation, to animate element <strong>while scrollig DOWN</strong>, just use <code>data-scrolly-bottom</code> attribute and add whatever animation you want. We used <code>doorCloseFromLeft</code> for example.</p>
+                    <pre><code class="html">&lt;div data-scrolly-bottom=&quot;moveFromRight&quot;&gt; <br/>     it's easy to do <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromRight" data-scrolly-bottom="doorCloseFromRight, duration:3s">
+                    <p><b>Use Both Top and Bottom Animation:</b> You can also trigger an animation effect in any given element from both <strong>UP &amp; DOWN</strong>, means it will animate on both scrolling <strong>UP &amp; DOWN</strong>. See the example below- </p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight&quot; data-scrolly-bottom=&quot;moveFromRight&quot;&gt; <br/>     it's easy to do <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromLeft" data-scrolly-bottom="doorCloseFromLeft">
+                    <p><b>Use Animation on Character:</b> Yes !! you can now animate each character of any sentences while you scroll. Add <code>data-scrolly-characters="sequentially"</code> for sequential animation of the characters or <code>data-scrolly-characters="randomly"</code> if you want it to animate it in random order....<b>isn't it exciting !!</b></p>
+                    <pre><code class="html">&lt;h1 data-scrolly-characters=&quot;sequentially&quot; data-scrolly-top=&quot;leSpinInLeft&quot; data-scrolly-bottom=&quot;leSpinInRight&quot;&gt;<br/>     I am Awesome. I can animate every characters in a sentence<br/>&lt;/h1&gt;<br><br>&lt;h1 data-scrolly-characters=&quot;randomly&quot; data-scrolly-top=&quot;leSpinInLeft&quot; data-scrolly-bottom=&quot;leSpinInRight&quot;&gt;<br/>     I am Awesome. I can animate every characters in a sentence<br/>&lt;/h1&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromLeft" data-scrolly-bottom="doorCloseFromLeft">
+                    <p><b>Use Animation Duration:</b> Default animation duration is <code>1s</code> but you can always define your custom duration by adding <code>duration:2s</code> attribute.</p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight, duration:2s&quot;&gt; <br/>     it's easy to do <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromRight" data-scrolly-bottom="doorCloseFromRight">
+                    <p><b>Add Delay:</b> By adding the attribute <code>delay:2s</code> you can set a delay time to start of an animation.</p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight, delay:2s&quot;&gt; <br/>     I am start after 2s <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromLeft" data-scrolly-bottom="doorCloseFromLeft">
+                    <p><b>Infinite or Specify The Number of Animation:</b> The <code>iteration-count</code> specifies the number of times an animation should be played. Use <code>iteration-count: 3</code> if you want to animate 3 times or use <code>iteration-count:infinite</code> which should play the animation with no limit.</p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight, iteration-count:3&quot;&gt; <br/>     I am animate 3 times <br/>&lt;/div&gt;<br/><br/>&lt;div data-scrolly-top=&quot;moveFromRight, iteration-count:infinite&quot;&gt; <br/>     I am animate unlimited times <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromLeft" data-scrolly-bottom="doorCloseFromLeft">
+                    <p><b>Animation Direction:</b> You can run the animation in reverse direction or alternate cycle <strong>(forward, backward, then again forward)</strong> using <code>direction</code> attribute.</p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight, direction:reverse&quot;&gt; <br/>     it's easy to do <br/>&lt;/div&gt;<br/><br/>&lt;div data-scrolly-top=&quot;moveFromRight, iteration-count:3, direction:alternate&quot;&gt; <br/>     it's easy to do <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromLeft" data-scrolly-bottom="doorCloseFromLeft">
+                    <p><b>Timing Function:</b> You can add all CSS pre-defined speed curve <code>ease</code>, <code>ease-in</code>, <code>ease-out</code>, <code>linear</code> of an animation or define your own values with a <code>cubic-bezier</code> function by adding <code>timing-function</code> attribute.</p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight, timing-function:linear&quot;&gt; <br/>     it's easy to do <br/>&lt;/div&gt;<br/><br/>&lt;div data-scrolly-top=&quot;moveFromRight, timing-function:cubic-bezier(.17,.67,.83,.67)&quot;&gt; <br/>     it's easy to do <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromLeft" data-scrolly-bottom="doorCloseFromLeft">
+                    <p><b>Define Top Offset Value:</b> Set the top animation starting point after it appears on the browser window <code>data-scrolly-offset-top="300px"</code>.</p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight&quot; data-scrolly-offset-top=&quot;300px&quot;&gt;<br/>     it's easy to do <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromLeft" data-scrolly-bottom="doorCloseFromLeft">
+                    <p><b>Define Bottom Offset Value:</b> Like the top offset the <code>data-scrolly-offset-bottom="500px"</code> attribute can be used to set the bottom starting point of the animation.</p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight&quot; data-scrolly-offset-bottom=&quot;500px&quot;&gt;<br/>     it's easy to do <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromRight" data-scrolly-bottom="doorCloseFromRight" data-scrolly-click="fadeIn">
+                    <p><b>On Click Animtion:</b> Initiate the animation with on click event with <code>data-scrolly-click="fadeIn".</code></p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight&quot; data-scrolly-click=&quot;moveFromRight&quot;&gt; <br/>     I am animate when you click me. Please click <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromLeft" data-scrolly-bottom="doorCloseFromLeft" data-scrolly-mouseover="zoomIn">
+                    <p><b>Mouse Over Animtion:</b> For mouse over animation add the <code>data-scrolly-mouseover="zoomIn"</code> attribute.</p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight&quot; data-scrolly-mouseover=&quot;moveFromRight&quot;&gt; <br/>     I am animate when you hover me <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromRight" data-scrolly-bottom="doorCloseFromRight" data-scrolly-mouseout="fadeInLeft">
+                    <p><b>Mouse Out Animtion:</b> Add <code>data-scrolly-mouseout="zoomOut"</code> attribute to animate on mouse out event.</p>
+                    <pre><code class="html">&lt;div data-scrolly-top=&quot;moveFromRight&quot; data-scrolly-mouseout=&quot;moveFromRight&quot;&gt; <br/>     I am animate when you click me <br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromRight" data-scrolly-bottom="doorCloseFromRight">
+                    <p><b>Targeted Object Animate When You Click:</b> If you want to animate a content by clicking on another one, follow this simple instruction. <a href="javascript:void(0)" data-scrolly-animation="swingInLeftTarget" data-scrolly-target-click="targetElement"> <br>Click me to animate targeted object</a> </p>
+                    <pre><code class="html">&lt;input type="button" value="Hit me to Animate targetd object" data-srolly-selector="targetElement"&gt;<br/><br/>&lt;div data-scrolly-selector="targetElement" data-scrolly-target-click=&quot;moveFromRight&quot;&gt;<br/>     I am animate your target object when you click me<br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromRight" data-scrolly-bottom="doorCloseFromRight">
+                    <p><b>Targeted Object Animate When You Mouse Over:</b> Animate any content while hovering mouse on another one. <a href="javascript:void(0)" data-scrolly-animation="swingInLeftTarget" data-scrolly-target-mouseover="targetElement">Hover me to animate targetd object</a></p>
+                    <pre><code class="html">&lt;input type="button" value="Hit me to Animate targetd object" data-srolly-selector="targetElement"&gt;<br/><br/>&lt;div data-scrolly-selector="targetElement" data-scrolly-target-click=&quot;moveFromRight&quot;&gt;<br/>     I am animate your target object when you hover me<br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12" data-scrolly-top="doorCloseFromRight" data-scrolly-bottom="doorCloseFromRight">
+                    <p><b>Targeted Object Animate When You Mouse Out:</b> Unlike those two follow the instruction below to animate targeted contents while doing mouse out on another one. <a href="javascript:void(0)" data-scrolly-animation="swingInLeftTarget" data-scrolly-target-mouseout="targetElement"> Mouse out from me to animate targeted object</a></p>
+                    <pre><code class="html">&lt;input type="button" value="Hit me to Animate targetd object" data-srolly-selector="targetElement"&gt;<br/><br/>&lt;div data-scrolly-selector="targetElement" data-scrolly-target-click=&quot;moveFromRight&quot;&gt;<br/>     I am animate your target object when you mouse out from me<br/>&lt;/div&gt;</code></pre>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="sectionPadding settings" id="settings">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h1 data-scrolly-characters="delay:100" data-scrolly-top="leBlurInRight" data-scrolly-bottom="leBounceFromTop">Advanced Settings</h1>
+                    </div>
+                </div>
+
+                <div class="col-md-12 text-left" data-scrolly-top="fadeInLeft, duration:1.5s" data-scrolly-bottom="fadeInLeft">
+                    <p><b>Scrolly Offset Top </b>– specifies the distance between the beginning of the object and the beginning of the browser window from top</p>
+                    <ul>
+                        <li>Default value – 0px</li>
+                        <li>Example value – 300px</li>
+                        <li>
+                            Uses –<br/>
+                            <pre><code class="html">&lt;script&gt; <br/>  scrolly ({ <br/>    scrollyOffsetTop: 20px,<br/>  }); <br/>&lt;/script&gt; </code></pre>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-12 text-left" data-scrolly-top="fadeInRight, duration:1.5s" data-scrolly-bottom="fadeInRight">
+                    <p><b>Scrolly Offset Bottom </b>– specifies the distance between the beginning of the object and the ending of the browser window from bottom</p>
+                    <ul>
+                        <li>Default value – 0px</li>
+                        <li>Example value – 300px</li>
+                        <li>
+                            Uses –<br/>
+                            <pre><code class="html">&lt;script&gt; <br/>  scrolly ({ <br/>    scrollyOffsetBottom: 20px,<br/>  }); <br/>&lt;/script&gt; </code></pre>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-12 text-left" data-scrolly-top="fadeInLeft, duration:1.5s" data-scrolly-bottom="fadeInLeft">
+                    <p><b>Scrolly [Device or OS name] Offset Top </b>– specifies the distance between the beginning of the object and the beginning of the browser window from top based on OS and devices</p>
+                    <ul>
+                        <li>Device Supports – Tab and Mobile</li>
+                        <li>OS Supports – MAC OS and Windows</li>
+                        <li>Default value – 0px</li>
+                        <li>Example value – 300px</li>
+                        <li>
+                            Uses –<br/>
+                            <pre><code class="html">&lt;script&gt; <br/>  scrolly ({ <br/>    scrollyMacOffsetTop: 200px;      /*Setting Offset Top Value for MAC*/<br/>    scrollyWindowsOffsetTop: 200px;  /*Setting Offset Top Value for Windows*/<br/>    scrollyTabOffsetTop: 200px;      /*Setting Offset Top Value for Tab*/<br/>    scrollyMobileOffsetTop: 200px;   /*Setting Offset Top Value for Mobile*/<br/> }); <br/>&lt;/script&gt; </code></pre>
+                        </li>
+                    </ul>
+                </div>
+
+
+                <div class="col-md-12 text-left" data-scrolly-top="fadeInRight, duration:1.5s" data-scrolly-bottom="fadeInRight">
+                    <p><b>Scrolly [Device or OS Name] Offset Bottom </b>– specifies the distance between the beginning of the object and the ending of the browser bottom window based on OS and devices</p>
+                    <ul>
+                        <li>Device Supports – Tab and Mobile</li>
+                        <li>OS Supports – MAC OS and Windows</li>
+                        <li>Default value – 0px</li>
+                        <li>Example value – 300px</li>
+                        <li>
+                            Uses –<br/>
+                            <pre><code class="js">&lt;script&gt; <br/>  scrolly ({ <br/>    scrollyMacOffsetBottom: 200px;      /*Setting Offset Bottom Value for MAC*/<br/>    scrollyWindowsOffsetBottom: 200px;  /*Setting Offset Bottom Value for Windows*/<br/>    scrollyTabOffsetBottom: 200px;      /*Setting Offset Bottom Value for Tab*/<br/>    scrollyMobileOffsetBottom: 200px;   /*Setting Offset Bottom Value for Mobile*/<br/> }); <br/>&lt;/script&gt; </code></pre>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-12 text-left" data-scrolly-top="fadeInRight, duration:1.5s" data-scrolly-bottom="fadeInRight">
+                    <p><b>Scrolly Stop It </b>– There are several options that you can use to destroy scrolly on certains devices. </p>
+                    <ul>
+                        <li>Default value – false</li>
+                        <li>Type – Boolean</li>
+                        <li>Device Supports – Large Desktop, Desktop, Tab and Mobile</li>
+                        <li>Example value – <code>mobile: true</code></li>
+                        <li>
+                            Uses –<br/>
+                            <pre><code class="html">&lt;script&gt; <br/>  scrolly ({ <br/>    scrollyStopIt: {<br/>        largeDesktop: false,<br/>        desktop: false,<br/>        mobile: true,<br/>        tab: false,<br/>      }<br/>  }); <br/>&lt;/script&gt; </code></pre>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-12 text-left" data-scrolly-top="fadeInLeft, duration:1.5s" data-scrolly-bottom="fadeInLeft">
+                    <p><b>Scrolly Disable </b>– you can use <code>scrollyDisable</code> to kill scrolly.</p>
+                    <ul>
+                        <li>Default value – false</li>
+                        <li>Type – Boolean</li>
+                        <li>Example value – true</li>
+                        <li>
+                            Uses –<br/>
+                            <pre><code class="html">&lt;script&gt; <br/>  scrolly ({ <br/>    scrollyDisable: true,<br/>  }); <br/>&lt;/script&gt; </code></pre>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sectionPadding" id="pricing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="title">
+                        <h1>Pricing Guide</h1>
+                        <p>Scrolly.js is free to use. If you want to use scrolly.js to develop commercial sites, themes, projects, and applications, the commercial license is the appropriate license. With this option, your source code is kept proprietary. Read more about <a href="support-policy.html"> support</a> and <a href="licensing.html"> licensing.</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" data-scrolly-top="bounceInTop" data-scrolly-bottom="bounceInBottom">
+                <div class="col-md-4">
+                    <div class="license personal">
+                        <h3>Free</h3>
+                        <p><sup>$</sup>0</p>
+                        <ul>
+                            <li>Use in open-source projects</li>
+                            <li>Your portfolio website</li>
+                            <li>Charity websites</li>
+                        </ul>
+                        <a class="btn btn-default" href="https://github.com/yesiamrocks/scrolly.js" target="_blank">Start with Free</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="license commercial">
+                        <h3>Premium</h3>
+                        <p><sup>$</sup>28<sup>.99</sup></p>
+                        <ul>
+                            <li>Commercial use allowed</li>
+                            <li>1 time payment</li>
+                            <li><strong>Limited to 1 project</strong></li>
+                            <li>1 Year Basic Support</li>
+                            <li>Lifetime updates</li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn btn-default">Comming Soon</a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="license unlimited">
+                        <h3>Business</h3>
+                        <p><sup>$</sup>79<sup>.99</sup></p>
+                        <ul>
+                            <li>Commercial use allowed</li>
+                            <li>1 time payment</li>
+                            <li><strong>Unlimited number of projects</strong></li>
+                            <li>1 Year Priority support</li>
+                            <li>Lifetime updates</li>
+                        </ul>
+                        <a href="javascript:void(0)" class="btn btn-default">Comming Soon</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Do you have any questions? Do you want to be our sponsor or partner? Are you an investor? <br/>Write to us and we'll be in touch with you as soon as possible.</p>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="input-your-mail" placeholder="Email address:">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="input-your-message" placeholder="Ask us anything">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+
+                <div class="col-md-12">
+                    <p class="text-center copyright">©2017 ScrollyJS. All Rights Reserved. Project Design, Documentation &amp; Planned By <a href="https://bd.linkedin.com/in/yesiamrocks">Pavel</a></p>
+                    <p><small class="smaller-text">Use Google Chrome for a better experience. <a href="http://www.caniuse.com/#search=animation" target="_blank">check on browser compatibility</a></small></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Target Element Click-->
+        <div class="targetClick" data-scrolly-selector="targetElement"> <img class="img-responsive center-block" src="images/logo2.png" alt="Scrolly Logo"/> </div>
+    <!--Target Element Click-->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/scrolly_custom.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+    <script src="lib/scrolly.js"></script>
+    <script>
+        window.onload = function() {
+            scrolly();
+        };
+    </script>
+</body>
+
+</html>
